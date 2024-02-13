@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Алина by @pluxanax</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'ALINA';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">DRACO</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">Обо мне</a></li>
+				        <li><a href="#experiences">Опыт</a></li>
+                        <li><a href="#skills">Навыки</a></li>
+				        <li><a href="#achievements">Образование</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Привет, я Алина</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>Я<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					Информация обо мне
+				</p>
+                <a href="https://t.me/pluxanax">Мой телеграм</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Опыт<br>Работы</h1>
+			<ul class="work-list">
+				<li>02.2022-02.2024</li>
+				<li><a href="#">Brand Analytics</a></li>
+				<li>QA инженер</li>
+			</ul>
+			<ul class="work-list">
+				<li>02.2021-01.2022</li>
+				<li><a href="#">Рокет Проджект</a></li>
+				<li>Стажер QA инженер</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Технические<br>Навыки</h1>
+			<ul class="skill-list list-flat">
+				<li>Web</li>
+				<li>DevTools / Charles / HTML / CSS / Figma / PixelPerfect</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>PostgreSQL / Metabase / DBeaver</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Backend</li>
+				<li>Postman / REST / Swagger / OpenAPI / Kibana / Sentry / Grafana</li>
+			</ul>
+	</div>
+
+    <!-- Award & Achievements -->
+    <div class="award section second" id="achievements">
+        <div class="container">
+            <h1>Образование<br></h1>
+            <ul class="award-list list-flat">
+                <li>2021</li>
+                <li>ГПОУ Юргинский технологический колледж</li>
+                <li>Системный администратор</li>
+            </ul>
+        </div>
+    </div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>Ты можешь бесконечно долго говорить "не баг, а фича" но какой в этом смысл, если твой заказчик плачет?</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="linabaybulatova@gmail.com"><i class="fa fa-send"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["QA Engineer", "Тестировщик ПО"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
